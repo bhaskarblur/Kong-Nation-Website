@@ -1,0 +1,387 @@
+body{
+    background-color: #151414;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    margin-top: 1.2rem;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    text-decoration: none;
+    color: #EFF2F5;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.leftNav{
+    top: 0%;
+    justify-items: auto;
+    margin-top: -.6rem;
+}
+.midNav{
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    display: block;
+    top: 0%;
+}
+
+.midNavList{
+    justify-items: auto;
+}
+
+.navListLi_current{
+    display: inline-block;
+    color: #EFF2F5;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    margin-right: 3.3rem;
+}
+.navListLi{
+    display: inline-block;
+    color: #7F8283;
+    cursor: pointer;
+    margin-right: 3.3rem;
+    letter-spacing: 0.01em;
+}
+
+.navListLi:hover{
+    display: inline-block;
+    color: #EFF2F5;
+    cursor: pointer;
+    margin-right: 3.3rem;
+    letter-spacing: 0.01em;
+    transition: 200ms;
+}
+
+.rightNav{
+    margin-top: 2px;
+}
+
+.headerCta{
+    background-color: transparent;
+    border: .11rem solid #EFF2F5;
+    border-radius: 14px;
+    color: #EFF2F5;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Readex Pro',sans-serif;
+    padding: .9rem 1.5rem;
+
+}
+.headerCta:hover{
+    background-color: #EFF2F5;
+    border-radius: 14px;
+    color: #0D0F13;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Readex Pro',sans-serif;
+    padding: .9rem 1.5rem;
+    transition: 250ms;
+
+}
+
+.heroSection{
+    margin-top: 8rem;
+}
+
+.heroText{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.2em;
+    position: relative;
+    word-break: break-all;
+}
+
+.heroSubText{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7F8283;
+    letter-spacing: 0.02em;
+    line-height: 1.5rem;
+    word-break: break-all;
+}
+
+.heroCta{
+    background-color: #EFF2F5;
+    border-radius: 14px;
+    border: transparent;
+    color: #0D0F13;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: 'Readex Pro',sans-serif;
+    padding: 1rem 1.8rem;
+}
+
+.heroCta:hover{
+    background-color: transparent;
+    color: #EFF2F5;
+    border: .1rem solid #EFF2F5;
+    transition: 250ms;
+ 
+}
+
+.ctaDiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+.heroSecCta{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    margin-left: 2.5rem;
+}
+
+.heroImage{
+    position: relative;
+    z-index: -2;
+
+    margin-top: -1rem;
+}
+
+.roadmapSection{
+    background-color: #1E1D1D;
+    top: 0%;
+    margin-top: -165px;
+    left: 0%;
+    right: 0%;
+    margin-left: -5%;
+    margin-right: -5%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.roadmapHeadText{
+    color: #EFF2F5;
+    text-align: center;
+    font-size: 2.4em;
+    letter-spacing: 0.02em;
+    padding-top: 5rem;
+    font-weight: 600;
+}
+
+.roadmapList{
+    list-style: none;
+    left: 0%;
+    right: 0%;
+    margin-left: -18%;
+    margin-top: 5rem;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.roadmapListLi{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 2rem;
+   left: 0%;
+   position: static;
+   margin-left: 0%;
+    
+}
+
+.roadmapListLi1{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 2rem;
+   left: 0%;
+   position: static;
+   margin-left: -1.5%;
+    
+}
+.roadmapListLi2{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 2rem;
+   left: 0%;
+   position: static;
+   margin-left: -2%;
+    
+}
+.roadmapLeft{
+    background-color: #171616;
+    width: 380px;
+    height: 190px;
+    border-radius: 20px;
+    display: block;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    left: 0%;
+    position: relative;
+}
+
+.roadmapCardHeadText{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    font-size: 1.4em;
+
+    font-weight: 500;
+    position: relative;
+
+}
+
+.roadmapSubText{
+    color: #7F8283;
+    letter-spacing: 0.02em;
+    font-size: .93em;
+    font-weight: 200;
+    margin-right: 1rem;
+    line-height: 150%;
+}
+
+.roadmapDateText{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 1.4rem;
+    margin-top: 1.2rem;
+
+}
+
+.roadmapCardSecHeadText{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    font-size: 1.6em;
+    top: 0%;
+    margin-top: 2%;
+    font-weight: 500;
+
+
+}
+
+.roadmapSecDateText{
+    color: #7F8283;
+    letter-spacing: 0.02em;
+    font-size: 1em;
+    font-weight: 200;
+    margin-right: 1.4rem;
+    margin-top: -.5rem;
+}
+
+.galleryHeadText{
+    color: #EFF2F5;
+    text-align: center;
+    font-size: 2.4em;
+    letter-spacing: 0.02em;
+    padding-top: 5rem;
+    font-weight: 600;
+}
+
+.galleryList{
+    margin-top: 5rem;
+    list-style: none;
+    display: grid;
+    margin-left: -30px;
+    grid-template-columns: auto auto auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.galleryListLi{
+    background-color: #1E1D1D;
+    padding-bottom: 1em;
+    width: max-content;
+    height: max-content;
+    padding-left: 1rem;
+    padding-top:  1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galleryCardHeadText{
+    color: #EFF2F5;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.teamHeadText{
+    color: #EFF2F5;
+    text-align: center;
+    font-size: 2.4em;
+    letter-spacing: 0.02em;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+.teamList{
+    margin-top: 5rem;
+    list-style: none;
+    display: grid;
+    margin-left: -30px;
+    grid-template-columns: auto auto auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.teamCardHeadText{
+    color: #EFF2F5;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.teamListLi{
+    background-color: #1E1D1D;
+    padding-bottom: 1em;
+    width: max-content;
+    height: max-content;
+    padding-left: 1rem;
+    padding-top:  1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
