@@ -1,9 +1,9 @@
 body{
     background-color: #151414;
     font-family: 'Readex Pro', sans-serif;
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
-    margin-top: 1.2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1.4rem;
     scroll-behavior: smooth;
 }
 
@@ -90,8 +90,8 @@ a{
 
 }
 .heroImage{
-    width: 440px;
-    height: 440px;
+    width: 28rem;
+    height: 28rem;
     margin-left: auto;
     float: right;
  
@@ -107,6 +107,7 @@ a{
     position: relative;
     margin-top: .7em;
     line-height: 132%;
+    margin-right: 120px;
 }
 
 .heroHeadSpan{
@@ -160,7 +161,7 @@ a{
     left: 0%;
     letter-spacing: 0.02em;
     line-height: 1.7rem;
-    margin-right: 220px;
+    margin-right: 20px;
     
 }
 
@@ -172,7 +173,7 @@ a{
     left: 0%;
     letter-spacing: 0.02em;
     line-height: 1.7rem;
-    margin-right: 220px;
+    margin-right: 20px;
     
 }
 
@@ -184,7 +185,7 @@ a{
     left: 0%;
     letter-spacing: 0.02em;
     line-height: 1.7rem;
-    margin-right: 220px;
+    margin-right: 20px;
     
 }
 
@@ -196,6 +197,377 @@ a{
     left: 0%;
     letter-spacing: 0.02em;
     line-height: 1.7rem;
-    margin-right: 220px;
+    margin-right: 20px;
     
+}
+
+@media screen and (min-width: 1760px) and (max-width: 2080px) {
+    body{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-top: 1.6rem;
+
+    }
+
+    .heroSection{
+        margin-top: 11rem;
+    }
+    .heroHeadText{
+        font-size: 3.4em;
+    }
+
+    .heroSubText{
+        font-size: 1.2em;
+        margin-right: 300px;
+    }
+
+    .mintPriceSpan{
+        font-size: 1.2em;
+    }
+
+    .mintPriceText{
+        font-size: 1.3em;
+    }
+    .mintLeftSpan{
+        font-size: 1.2em;
+    }
+
+    .mintLeftText{
+        font-size: 1.3em;
+    }
+
+    .headerCta{
+        font-size: 1.1rem;
+    }
+    .headerCta:hover{
+        font-size: 1.1rem;
+    }
+    .mintCta{
+        font-size: 1.1rem;
+    }
+    .mintCta:hover{
+        font-size: 1.1rem;
+    }
+    
+
+    .heroImage{
+        width: 32rem;
+        height: 32rem;
+    }
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1759px) {
+    body{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .heroSection{
+        margin-top: 9rem;
+    }
+    .heroHeadText{
+        font-size: 3em; 
+    }
+
+    .heroSubText{
+        font-size: 1.1em;
+    }
+
+    .mintPriceSpan{
+        font-size: 1.2em;
+    }
+
+    .mintPriceText{
+        font-size: 1.2em;
+    }
+    .mintLeftSpan{
+        font-size: 1.2em;
+    }
+
+    .mintLeftText{
+        font-size: 1.2em;
+    }
+
+    .headerCta{
+        font-size: 1rem;
+    }
+    .headerCta:hover{
+        font-size: 1rem;
+    }
+    .mintCta{
+        font-size: 1rem;
+    }
+    .mintCta:hover{
+        font-size: 1rem;
+    }
+    
+
+    .heroImage{
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 440px) {
+    body{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .logo{
+        font-size: .9em;
+    }
+
+    .headerCta{
+        display: none;
+    }
+
+    .socialsClass{
+        margin-right: 0%;
+        margin-top: .8rem;
+    }
+
+    .socialIcon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .heroSection{
+        margin-top: 6em;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .heroSubText{
+        margin-right: 0%;
+        line-height: 150%;
+        font-size: .9em;
+    }
+    .heroHeadText{
+        font-size: 2.4em;
+        margin-right: 0%;
+    }
+
+    .heroRight{
+        display: none;
+    }
+
+
+    .mintLeftText{
+        font-size: 1em;
+    }
+
+    .mintPriceText{
+        font-size: 1em;
+    }
+    
+    .mintLeftSpan{
+        font-size: 1em;
+    }
+    
+    .mintPriceSpan{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:441px) and (max-width: 520px) {
+    body{
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+    }
+
+    .logo{
+        font-size: .9em;
+    }
+
+    .headerCta{
+        display: none;
+    }
+
+    .socialsClass{
+        margin-right: 0%;
+        margin-top: .8rem;
+    }
+
+    .socialIcon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .heroSection{
+        margin-top: 7em;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .heroSubText{
+        margin-right: 0%;
+        line-height: 150%;
+        font-size: 1em;
+        margin-top: -.6rem;
+    }
+    .heroHeadText{
+        font-size: 2.4em;
+        margin-right: 10px;
+    }
+
+    .heroRight{
+        display: none;
+    }
+
+
+    .mintLeftText{
+        font-size: 1.1em;
+    }
+
+    .mintPriceText{
+        font-size:  1.1em;
+        margin-top: 1.4rem;
+    }
+    
+    .mintLeftSpan{
+        font-size:  1.1em;
+    }
+    
+    .mintPriceSpan{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:521px) and (max-width: 680px) {
+    body{
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    .logo{
+        font-size: .9em;
+    }
+
+    .headerCta{
+        display: none;
+    }
+
+    .socialsClass{
+        margin-right: 0%;
+        margin-top: .6rem;
+    }
+
+    .socialIcon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .heroSection{
+        margin-top: 7em;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .heroSubText{
+        margin-right: 0%;
+        line-height: 150%;
+        font-size: 1em;
+        margin-top: -.6rem;
+    }
+    .heroHeadText{
+        font-size: 2.4em;
+        margin-right: 10px;
+    }
+
+    .heroRight{
+        display: none;
+    }
+
+
+    .mintLeftText{
+        font-size: 1.1em;
+    }
+
+    .mintPriceText{
+        font-size:  1.1em;
+        margin-top: 1.4rem;
+    }
+    
+    .mintLeftSpan{
+        font-size:  1.1em;
+    }
+    
+    .mintPriceSpan{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width: 820px) {
+    body{
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    .logo{
+        font-size: .9em;
+     
+    }
+
+    .leftNav{
+        margin-top: -.5rem;
+    }
+
+    .socialsClass{
+
+        margin-top: .9rem;
+    }
+
+    .socialIcon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .heroRight{
+        float: left;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    
+    .heroImage{
+        width: 36rem;
+        height: 36rem;
+    }
+    .heroSection{
+        margin-top: 8em;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .heroSubText{
+        margin-right: 0%;
+        line-height: 150%;
+        font-size: 1em;
+        margin-top: -.6rem;
+    }
+    .heroHeadText{
+        font-size: 2.4em;
+        margin-right: 10px;
+    }
+
+
+
+    .mintLeftText{
+        font-size: 1.1em;
+    }
+
+    .mintPriceText{
+        font-size:  1.1em;
+        margin-top: 1.4rem;
+    }
+    
+    .mintLeftSpan{
+        font-size:  1.1em;
+    }
+    
+    .mintPriceSpan{
+        font-size: 1.1em;
+    }
 }
