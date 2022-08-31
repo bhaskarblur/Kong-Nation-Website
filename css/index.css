@@ -27,7 +27,7 @@ a{
 .leftNav{
     top: 0%;
     justify-items: auto;
-    margin-top: -.6rem;
+    margin-top: -.8rem;
 }
 .midNav{
     justify-content: center;
@@ -154,8 +154,9 @@ a{
 .heroImage{
     position: relative;
     z-index: -2;
-
     margin-top: -1rem;
+    width: auto;
+
 }
 
 .roadmapSection{
@@ -241,6 +242,11 @@ a{
     position: relative;
 }
 
+.roadmapLeft:hover{
+    background-color: #121111;
+    transition: 200ms;
+}
+
 .roadmapCardHeadText{
     color: #EFF2F5;
     letter-spacing: 0.02em;
@@ -295,7 +301,7 @@ a{
     text-align: center;
     font-size: 2.4em;
     letter-spacing: 0.02em;
-    padding-top: 5rem;
+    padding-top: 4rem;
     font-weight: 600;
 }
 
@@ -334,8 +340,9 @@ a{
 
 .galleryCardHeadText{
     color: #EFF2F5;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 500;
+    margin-left: .2rem;
 }
 
 .teamHeadText{
@@ -368,8 +375,9 @@ a{
 
 .teamCardHeadText{
     color: #EFF2F5;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 500;
+    margin-left: .2rem;
 }
 
 .teamListLi{
