@@ -1,9 +1,10 @@
 body{
     background-color: #151414;
     font-family: 'Readex Pro', sans-serif;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
     margin-top: 1.2rem;
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -73,7 +74,7 @@ a{
 
 .headerCta{
     background-color: transparent;
-    border: .11rem solid #EFF2F5;
+    border: .13rem solid #EFF2F5;
     border-radius: 14px;
     color: #EFF2F5;
     cursor: pointer;
@@ -136,7 +137,7 @@ a{
 .heroCta:hover{
     background-color: transparent;
     color: #EFF2F5;
-    border: .1rem solid #EFF2F5;
+    border: .13rem solid #EFF2F5;
     transition: 250ms;
  
 }

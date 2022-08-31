@@ -1,0 +1,201 @@
+body{
+    background-color: #151414;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    margin-top: 1.2rem;
+    scroll-behavior: smooth;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    text-decoration: none;
+    color: #EFF2F5;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.leftNav{
+    top: 0%;
+    justify-items: auto;
+    margin-top: -.8rem;
+}
+
+.rightNav{
+    margin-top: 2px;
+    display: flex;
+}
+
+.socialsClass{
+   margin-right: 2rem;
+   margin-top: 1rem;
+}
+
+.socialIcon{
+    margin-left: .9rem;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+.headerCta{
+    background-color: transparent;
+    border: .13rem solid #EFF2F5;
+    border-radius: 14px;
+    color: #EFF2F5;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Readex Pro',sans-serif;
+    padding: .9rem 1.5rem;
+
+}
+.headerCta:hover{
+    background-color: #EFF2F5;
+    border-radius: 14px;
+    color: #0D0F13;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Readex Pro',sans-serif;
+    padding: .9rem 1.5rem;
+    transition: 250ms;
+
+}
+
+.heroSection{
+    margin-top: 7rem;
+    display: flex;
+ 
+}
+
+
+.heroLeft{
+  
+}
+.heroRight{
+    float: right;
+   right: 0%;
+   margin-left: auto;
+   position: static;
+
+}
+.heroImage{
+    width: 440px;
+    height: 440px;
+    margin-left: auto;
+    float: right;
+ 
+
+}
+
+.heroHeadText{
+    color: #EFF2F5;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-align: left;
+    font-size: 3em;
+    position: relative;
+    margin-top: .7em;
+    line-height: 132%;
+}
+
+.heroHeadSpan{
+    color: #f2e125;
+    cursor: pointer;
+}
+.heroHeadSpan:hover{
+    color: #f4e970;
+    transition: 200ms;
+}
+
+.heroSubText{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7F8283;
+    left: 0%;
+    letter-spacing: 0.02em;
+    line-height: 1.7rem;
+    margin-right: 220px;
+    margin-top: -1rem;
+}
+.mintCta{
+    background-color: #EFF2F5;
+    border-radius: 14px;
+    border: transparent;
+    color: #0D0F13;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: 'Readex Pro',sans-serif;
+    padding: 1rem 1.8rem;
+    margin-top: 1.2rem;
+    left: 0%;
+}
+
+.mintCta:hover{
+    background-color: transparent;
+    color: #EFF2F5;
+    border: .13rem solid #EFF2F5;
+    transition: 250ms;
+ 
+}
+
+.mintPriceText{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #EFF2F5;
+    left: 0%;
+    letter-spacing: 0.02em;
+    line-height: 1.7rem;
+    margin-right: 220px;
+    
+}
+
+.mintPriceSpan{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f2e125;
+    left: 0%;
+    letter-spacing: 0.02em;
+    line-height: 1.7rem;
+    margin-right: 220px;
+    
+}
+
+.mintLeftText{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #EFF2F5;
+    left: 0%;
+    letter-spacing: 0.02em;
+    line-height: 1.7rem;
+    margin-right: 220px;
+    
+}
+
+.mintLeftSpan{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f2e125;
+    left: 0%;
+    letter-spacing: 0.02em;
+    line-height: 1.7rem;
+    margin-right: 220px;
+    
+}

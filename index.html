@@ -10,6 +10,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
         </style>
     <link href="/css/index.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
 </head>
 <body>
     <header class="header">
@@ -26,16 +28,16 @@
             </ul>
         </div>
         <div class="rightNav">
-            <a  href="youtube.com"> <button class="headerCta">Mint NFTs</button></a>
+            <a  href="/mint.html"> <button class="headerCta">Mint NFTs</button></a>
         </div>
     </header>
 
     <div class="heroSection">
         <h1 class="heroText">Discover & own OG Kong <br>NFT in your wallet!</h1>
         <h3 class="heroSubText">Own your Supreme NFTs now with your wallet with the new minting <br>website and staking nft features.</h3>
-        <div class="ctaDiv">
+        <div class="ctaDiv" >
 
-        <a  href="youtube.com"> <button class="heroCta">Mint NFTs</button></a>
+        <a  href="/mint.html"> <button class="heroCta">Mint NFTs</button></a>
         <a class="heroSecCta" href="#">Opensea Collection</a>
                  
          </div>
@@ -43,10 +45,12 @@
     </div>
 
     <div class="roadmapSection">
-        <h2 class="roadmapHeadText">Our Roadmap</h2>
+        <h2 class="roadmapHeadText" >Our Roadmap</h2>
         <ul class="roadmapList">
-            <li class="roadmapListLi1">
-                <div class="roadmapLeft">
+            <li class="roadmapListLi1" >
+                <div class="roadmapLeft" data-aos="fade-right" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardHeadText">Minting Website</h2>
                     <h3 class="roadmapSubText">Own your Supreme NFTs now with your wallet with the new minting
                          website and staking nft features.</h3>
@@ -55,13 +59,17 @@
                 <div class="roadmapMid">
                     <img class="roadmapLines" src="/assets/lines_1.svg">
                 </div>
-                <div class="roadmapRight">
+                <div class="roadmapRight" data-aos="fade-left" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardSecHeadText">COMPLETED</h2>
                     <h3 class="roadmapSecDateText">June, 2022</h3>
                 </div>
             </li>
             <li class="roadmapListLi">
-                <div class="roadmapLeft">
+                <div class="roadmapLeft" data-aos="fade-right" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardHeadText">Custom Mint Token</h2>
                     <h3 class="roadmapSubText">Own your Supreme NFTs now with your wallet with the new minting 
                         website and staking nft features.</h3>
@@ -70,13 +78,17 @@
                 <div class="roadmapMid">
                     <img class="roadmapLines" src="/assets/lines_2.svg">
                 </div>
-                <div class="roadmapRight">
+                <div class="roadmapRight" data-aos="fade-left" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardSecHeadText">IN PROGRESS</h2>
                     <h3 class="roadmapSecDateText">August, 2022</h3>
                 </div>
             </li>
             <li class="roadmapListLi2">
-                <div class="roadmapLeft">
+                <div class="roadmapLeft" data-aos="fade-right" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardHeadText">Metaverse V1</h2>
                     <h3 class="roadmapSubText">Own your Supreme NFTs now with your wallet with the new minting 
                         website and staking nft features.</h3>
@@ -85,7 +97,9 @@
                 <div class="roadmapMid">
                     <img class="roadmapLines" src="/assets/lines_3.svg">
                 </div>
-                <div class="roadmapRight">
+                <div class="roadmapRight" data-aos="fade-left" 
+                data-aos-duration="600"  
+                data-aos-easing="ease-in-out" >
                     <h2 class="roadmapCardSecHeadText">UPCOMING</h2>
                     <h3 class="roadmapSecDateText">December, 2022</h3>
                 </div>
@@ -159,4 +173,8 @@
         </ul> 
     </div>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
