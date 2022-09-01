@@ -209,8 +209,13 @@ a{
 
     }
 
+    .logo{
+        font-size: 1.2em;
+        text-align: left;
+    }
+
     .heroSection{
-        margin-top: 11rem;
+        margin-top: 10rem;
     }
     .heroHeadText{
         font-size: 3.4em;

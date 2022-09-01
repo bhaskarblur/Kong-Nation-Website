@@ -70,7 +70,20 @@ a{
 
 .rightNav{
     margin-top: 2px;
+    display: flex;
 }
+
+.socialsClass{
+    margin-right: 2rem;
+    margin-top: 1rem;
+ }
+ 
+ .socialIcon{
+     margin-left: .9rem;
+     cursor: pointer;
+     width: 22px;
+     height: 22px;
+ }
 
 .headerCta{
     background-color: transparent;
@@ -156,6 +169,10 @@ a{
     z-index: -2;
     margin-top: -1rem;
     width: auto;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
