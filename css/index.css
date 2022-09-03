@@ -164,6 +164,11 @@ a{
     margin-left: 2.5rem;
 }
 
+.heroSecCta:hover{
+    color: #7F8283; 
+    transition: 200ms;
+}
+
 .heroImage{
     position: relative;
     z-index: -2;
@@ -351,7 +356,7 @@ a{
     padding-right: 1rem;
     border-radius: 20px;
     margin-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
 }
 
@@ -409,4 +414,83 @@ a{
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media screen and (min-width: 1760px) and (max-width: 2080px) {
+    body{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-top: 1.6rem;
+
+    }
+
+    .logo{
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .heroSection{
+        margin-top: 10rem;
+    }
+    .heroText{
+        font-size: 3.5em;
+    }
+
+    .heroSubText{
+        font-size: 1.2em;
+    }
+    
+    .ctaDiv{
+        margin-top: 2.8rem;
+    }
+
+    .headerCta{
+        font-size: 1.1rem;
+    }
+    .headerCta:hover{
+        font-size: 1.1rem;
+    }
+    .heroCta{
+        font-size: 1.1rem;
+    }
+    .heroCta:hover{
+        font-size: 1.1rem;
+    }
+    
+    .heroImage{
+        width: 105%;
+        margin-left: -3%;
+    }
+    .roadmapSection{
+        margin-left: -13.5%;
+        margin-right: -13.5%;
+        margin-top: -180px;
+    }
+
+    .roadmapList{
+        margin-left: -12%;
+    }
+    
+    .roadmapListLi1{
+        gap: 14rem;
+    }
+    .roadmapListLi{
+        gap: 14rem;
+    }
+
+    .roadmapListLi2{
+        gap: 14rem;
+    }
+    
+    .galleryListLi{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+    }
+
+    .teamListLi{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+    }
 }
